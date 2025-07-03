@@ -5,6 +5,11 @@ body {
     align-items: center;
     font-size: 18px;
 }
+#cujo{
+    border: 12px inset goldenrod; 
+    width: 450px;
+    height: 320px;
+}
 
 h1 {
     font-size: 36x;
