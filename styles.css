@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    background-color: rgb(219, 107, 16); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(255, 170, 0), rgb(34, 255, 0));
 }
 #cujo{
     border: 12px inset goldenrod; 
@@ -28,4 +30,15 @@ h1 {
     font-weight: bold;
     font-style: italic;
     color: #999;
+}
+
+#spot{
+   
+color:white;
+  background-color: red; 
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+#rain{
+    background-color: rgb(255, 0, 17); 
+  background-image: linear-gradient(rgb(109, 147, 151), rgb(231, 221, 160));
 }
